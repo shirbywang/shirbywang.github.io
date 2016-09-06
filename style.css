@@ -7,3 +7,9 @@ p
 {
     color: white;
 }
+
+#title{
+    color: white;
+	text-align: center;
+	font-size: 48px;
+}
