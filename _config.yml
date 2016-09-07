@@ -1,0 +1,19 @@
+
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Shirby Wang's Website
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Shirby Wang's Website
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Shirby Wang
+
+# Your email if you want it to be linked on the contact page
+author_email: shirby.wang@gmail.com
+
+#### Under the Hood Stuff #####
+
+future: true
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: pretty
