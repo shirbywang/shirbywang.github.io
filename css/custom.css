@@ -1,5 +1,7 @@
 
 
+/* PARAGRAPH STUFF */
+
 h1 {
 	
 	text-align: left;
@@ -17,6 +19,8 @@ h2 {
 	font-weight: bold;
 	
 }
+
+/* LINKS */
 
 a:link
 {
@@ -37,6 +41,9 @@ a:hover
 		color: lightblue;
 		text-decoration: none;
 }
+
+
+/* CIRCLE WITH NAME */
 
 .circle {
 	background: black;
@@ -87,4 +94,54 @@ a:hover
 	width:200px;
 	text-align:center;
 	padding: 0px;
+}
+
+/* IMAGE GALLERIES */
+
+div.img {
+    border: none;
+}
+
+div.img:hover {
+    border: none;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+	font-size: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 6px;
+    float: left;
+    width: 47%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
