@@ -103,7 +103,7 @@ div.img {
 }
 
 div.img:hover {
-    border: none;
+    border: black;
 }
 
 div.img img {
