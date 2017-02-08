@@ -100,6 +100,14 @@ a:hover
 	padding: 0px;
 }
 
+
+/* RESIZE IMAGES */
+
+img.resize{
+   max-width:170%;
+   max-height:170%;
+}
+
 /* IMAGE GALLERIES */
 
 div.img {
