@@ -108,52 +108,52 @@ img.resize{
    max-height:170%;
 }
 
+img.gallery{
+  object-fit: cover;
+    width:230px;
+  height:230px;
+
+}
+
+
 /* IMAGE GALLERIES */
 
-div.img {
-    border: none;
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
 }
 
-div.img:hover {
-    border: black;
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
 }
 
-div.img img {
-    width: 100%;
-    height: auto;
+.gallery > div > img {
+
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
 }
 
-div.desc {
-    padding: 5px;
-    text-align: center;
-	font-size: 12px;
+.gallery > div:hover {
+  z-index: 1;
 }
 
-* {
-    box-sizing: border-box;
+.gallery > div:hover > img {
+	object-fit: contain;
+  transform: scale(2,2);
+  transition: .3s transform;
 }
 
-.responsive {
-    padding: 6px;
-    float: left;
-    width: 47%;
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
 }
 
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+.cf:after {
+  clear: both;
 }
