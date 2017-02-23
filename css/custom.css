@@ -104,8 +104,10 @@ a:hover
 /* RESIZE IMAGES */
 
 img.resize{
-   max-width:170%;
-   max-height:170%;
+ height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
 }
 
 img.gallery{
